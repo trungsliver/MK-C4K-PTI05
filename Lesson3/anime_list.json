@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "title": "Mononoke Hime Hello",
+        "release_date": "Jul 1997",
+        "image": "ui/images/mononoke-hime.jpg",
+        "rating": 10.0,
+        "link": "None"
+    },
+    {
+        "id": 1,
+        "title": "Spirited Away Adventure",
+        "release_date": "Jul 2001",
+        "image": "ui/images/spirited-away.jpg",
+        "rating": 9.8,
+        "link": "None"
+    },
+    {
+        "id": 2,
+        "title": "My Neighbor Totoro Tale",
+        "release_date": "Apr 1988",
+        "image": "ui/images/totoro.jpg",
+        "rating": 9.5,
+        "link": "None"
+    },
+    {
+        "id": 3,
+        "title": "Castle in the Sky",
+        "release_date": "Aug 1986",
+        "image": "ui/images/castle-in-the-sky.jpg",
+        "rating": 9.6,
+        "link": "None"
+    },
+    {
+        "id": 4,
+        "title": "Kiki's Delivery Service",
+        "release_date": "Jul 1989",
+        "image": "ui/images/kiki.jpg",
+        "rating": 9.2,
+        "link": "None"
+    },
+    {
+        "id": 5,
+        "title": "Ponyo on the Cliff",
+        "release_date": "Jul 2008",
+        "image": "ui/images/ponyo.jpg",
+        "rating": 8.9,
+        "link": "None"
+    },
+    {
+        "id": 6,
+        "title": "Howl's Moving Castle",
+        "release_date": "Nov 2004",
+        "image": "ui/images/howls-moving-castle.jpg",
+        "rating": 9.7,
+        "link": "None"
+    },
+    {
+        "id": 7,
+        "title": "Nausicaä of the Valley",
+        "release_date": "Mar 1984",
+        "image": "ui/images/nausicaa.jpg",
+        "rating": 9.4,
+        "link": "None"
+    },
+    {
+        "id": 8,
+        "title": "The Wind Rises",
+        "release_date": "Jul 2013",
+        "image": "ui/images/the-wind-rises.jpg",
+        "rating": 8.8,
+        "link": "None"
+    },
+    {
+        "id": 9,
+        "title": "The Tale of the Princess Kaguya",
+        "release_date": "Nov 2013",
+        "image": "ui/images/kaguya.jpg",
+        "rating": 9.0,
+        "link": "None"
+    }
+]
