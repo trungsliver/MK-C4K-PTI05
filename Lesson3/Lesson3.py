@@ -32,3 +32,20 @@ print(loaded_data.title)
 
 # Trả về thư mục hiện tại
 print(os.getcwd())  
+
+# Đọc nhiều đối tượng từ file vào danh sách đối tượng
+with open("Lessons/Lesson3/anime_list.json", "r") as file:
+    anime_data = json.load(file)
+
+# Danh sách anime
+anime_item_list = list()
+for data in anime_data:
+    anime = AnimeItem(id = data['id'],
+                      title=data['title'],
+                      release_date=data['release_date'])
+    anime_item_list.append(anime)
+
+# In ra để kiểm tra
+for anime in anime_item_list:
+    # print(anime.title, anime.release_date)
+    print(f'[{anime.title}] - {anime.release_date}')
