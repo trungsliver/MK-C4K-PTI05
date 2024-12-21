@@ -30,8 +30,8 @@ with open('Lessons/Lesson3/anime.json', 'r') as file:
                             data['release_date'])
 print(loaded_data.title)
 
-# Trả về thư mục hiện tại
-print(os.getcwd())  
+# # Trả về thư mục hiện tại
+# print(os.getcwd())  
 
 # Đọc nhiều đối tượng từ file vào danh sách đối tượng
 with open("Lessons/Lesson3/anime_list.json", "r") as file:
