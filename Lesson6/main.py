@@ -1,4 +1,4 @@
-import sys
+import sys, os
 from PyQt6 import QtGui, QtWidgets, QtCore
 import login, signup, oop
 
@@ -16,6 +16,7 @@ def homeUi():
     ui = signup.Ui_MainWindow()
     ui.setupUi(MainWindow)
     ui.btn_signup.clicked.connect(signup_check)
+    msg_box('test',f'{os.getcwd()}')
     MainWindow.show()
 
 def login_w():
@@ -77,7 +78,9 @@ def login_check():
         msg_box('Login fail', 'Username or password is incorrect!')
 #Run app
 homeUi()
+
 sys.exit(app.exec())
+
 
 # Lưu ý: chuột phải vào folder chứa 2 file này, chọn Open .... terminal
 # Câu lệnh convert ui: pyuic6 -x login.ui -o login.py
