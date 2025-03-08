@@ -1,0 +1,21 @@
+import sys
+from PyQt6 import QtCore, QtGui, QtWidgets
+import whatever_the_fuck_your_py_design_file_name_is
+
+# QApplication: Manages the User Interface of the app
+# QMainWindow: Creates the main window of the app
+# pyside6-rcc img_rc.qrc -o img-rc.py: Converts the image to a python file
+# pyuic6 -x regi.ui -o ui_regi.py: Converts the UI file to a python file
+
+ui = ''
+app = QtWidgets.QApplication(sys.argv)
+MainWindow = QtWidgets.QMainWindow()
+
+def HomeUi():
+    global ui
+    ui = register.Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+
+HomeUi()
+sys.exit(app.exec())

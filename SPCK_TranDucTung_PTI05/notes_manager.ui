@@ -63,6 +63,9 @@
        </property>
        <item>
         <widget class="QPushButton" name="notesButton">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="text">
           <string>Note</string>
          </property>
@@ -101,7 +104,8 @@
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: #fff0b1;
-padding: 10px;</string>
+padding: 10px;
+color: black;</string>
           </property>
           <property name="placeholderText">
            <string>Note here...</string>
@@ -197,7 +201,10 @@ border-radius: 10px;
            </font>
           </property>
           <property name="text">
-           <string>                                           Welcome back !</string>
+           <string>Welcome back !</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -237,7 +244,8 @@ border-radius: 10px;
           </property>
           <property name="styleSheet">
            <string notr="true">padding-left: 10px;
-background-color: #fff0b1;</string>
+background-color: #fff0b1;
+color: black;</string>
           </property>
           <property name="placeholderText">
            <string>Input your name</string>
@@ -254,7 +262,8 @@ background-color: #fff0b1;</string>
           </property>
           <property name="styleSheet">
            <string notr="true">padding-left: 10px;
-background-color: #fff0b1;</string>
+background-color: #fff0b1;
+color: black;</string>
           </property>
           <property name="echoMode">
            <enum>QLineEdit::Password</enum>
@@ -316,7 +325,10 @@ border-radius: 10px;
            </font>
           </property>
           <property name="text">
-           <string>                        Notepad , note everything you want !</string>
+           <string>Notepad , note everything you want !</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -347,6 +359,13 @@ border-radius: 10px;
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QLineEdit" name="signupUsernameInput">
           <property name="minimumSize">
            <size>
@@ -362,7 +381,8 @@ border-radius: 10px;
           </property>
           <property name="styleSheet">
            <string notr="true">padding-left: 10px;
-background-color: #fff0b1;</string>
+background-color: #fff0b1;
+color: black;</string>
           </property>
           <property name="text">
            <string/>
@@ -381,8 +401,9 @@ background-color: #fff0b1;</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">padding-left: 10px;padding-left: 10px;
-background-color: #fff0b1;</string>
+           <string notr="true">padding-left: 10px;
+background-color: #fff0b1;
+color: black;</string>
           </property>
           <property name="echoMode">
            <enum>QLineEdit::Password</enum>
