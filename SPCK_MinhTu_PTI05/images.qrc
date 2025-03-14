@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="image">
-    <file>image/toan.jfif</file>
-    <file>image/doanso.jfif</file>
-    <file>image/oantuti.png</file>
-    <file>image/oantutivip.jpg</file>
-  </qresource>
-</RCC>
