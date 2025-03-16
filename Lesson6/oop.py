@@ -55,9 +55,9 @@ class UserDatabase:
 
     # Tìm object bằng thuộc tính username
     def find_player_by_name(self, username):
-        for user in self.users_list:
+        for user in self.users_dict:
             # Tìm thấy
-            if user.username == username:
+            if user['username'] == username:
                 return True
         # Không tìm thấy
         return False

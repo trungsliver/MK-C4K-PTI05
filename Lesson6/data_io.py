@@ -1,6 +1,7 @@
 import os, json
 
 # Đọc dữ liệu (READ)
+
 def load_json_data():
     user_dict_data = list()
     with open('Lessons/Lesson6/data.json', 'r') as file:
@@ -12,6 +13,5 @@ def load_json_data():
 def write_json_data(json_data):
     with open('Lessons/Lesson6/data.json', 'w') as file:
         json.dump(json_data, file)
-
 # Xem đường dẫn hiện tại
 # print(os.getcwd()) 
